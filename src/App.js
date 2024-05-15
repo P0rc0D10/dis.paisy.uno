@@ -37,6 +37,7 @@ function App() {
         </div>
       </div>
       <div className='embedcontainer'>
+        <div>
           <h1 style={{ color: 'white' }}>Discord</h1>
           <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>
