@@ -39,7 +39,7 @@ function Header() {
             setSite(sites[currentSite]);
           }}>
           <a  target="_blank" rel="noopener noreferrer" style={{color: 'whitesmoke', backgroundColor: 'rgb(13, 12, 14)'}} href={`${site.link}`}><span className="prefix">{site.name_prefix}</span>
-            panley
+            DisPaisy
           <span className="suffix">{site.name_suffix} {((iconMapping[site.site]) ? iconMapping[site.site] : '')}</span></a>
         </h1>
       </div>
