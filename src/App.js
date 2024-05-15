@@ -33,17 +33,18 @@ function App() {
       <Header />
       <div className='textcontainer'>
         <div>
-          <p style={{ color: 'white' }}>{'Hey there, I’m DisPaisy!'}</p>
+          <p style={{ color: 'white' }}>{''}</p>
         </div>
       </div>
       <div className='embedcontainer'>
         <div>
           <h1 style={{ color: 'white' }}>Discord</h1>
-          <div style={{ display: 'flex', 'justify-content': 'left' }}>
+          <div style={{ display: 'flex', 'justify-content': 'Center' }}>
             <DiscordProfile discordUser={discordUser}/>
           </div>
+         <div>
           <h1 style={{ color: 'white' }}>Contact Information</h1>
-          <div style={{ display: 'flex', 'justify-content': 'right' }}>
+          <div style={{ display: 'flex', 'justify-content': 'Center' }}>
             <SocialsList />
           </div>
         </div>
