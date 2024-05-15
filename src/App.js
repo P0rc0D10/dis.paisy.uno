@@ -8,22 +8,22 @@ import { FaGithub, FaCloudflare  } from 'react-icons/fa'
 import DiscordProfile from "./components/discord_profiles/DiscordProfile.tsx";
 
 const discordUser = {
-  "id": "249287049482338305",
-  "username": "panley",
-  "global_name": "Panley",
-  "avatar": "ef8b8bb214443a639d84e00e89119677",
-  "banner": "83c12fc7e3421cd02219ab51d52d14b9",
+  "id": "921732185562685492",
+  "username": "malfunzionato",
+  "global_name": "DisPaisy",
+  "avatar": "a5fac2ecb783496c57633281a8bd1850",
+  "banner": "9ed1e5803a0e7b293607f4cd123830e1",
   "discriminator": "0",
   "public_flags": 4588096,
   "flags": 4588128,
   "theme_colors": [13594997, 10193583],
-  "bio": "I make things on Discord for a living.\n\nHit me up on Discord!",
+  "bio": "lol",
   "locale": "en-GB",
   "mfa_enabled": true,
   "premium_type": 2,
-  "avatar_decoration": null,
+  "avatar_decoration": 1212569433839636530,
   "verified": true,
-  "theme": "light",
+  "theme": "dark",
 }
 
 function App() {
@@ -33,17 +33,10 @@ function App() {
       <Header />
       <div className='textcontainer'>
         <div>
-          <p style={{ color: 'white' }}>{'Hey there, I’m Panley! I lead a team of veteran developers with years of experience bringing apps to life on Discord! I’ve worked with all sorts of brands in collaboration with Discord to bring rich experiences to the platform. I’ve successfully worked with strategic partners for several important brand moments led by Discord. I consistently bring high quality applications to life on Discord, bringing meaningful ways for your fans to engage with your brand & convert into potential customers. I aim to make your ideas into a strong reality. Thanks to my dedicated i18n and QA teams, I can help you launch across regions bug-free. My standard stack runs on Cloudflare for infinite scalability - no downtime! If you\'re interested in my work, please feel free to contact me for more information or a quote! You can find my contact information below.'}</p>
+          <p style={{ color: 'white' }}>{'Hey there, I’m DisPaisy!'}</p>
         </div>
       </div>
       <div className='embedcontainer'>
-        <div>
-          <h1 style={{ color: 'white' }}>Work History</h1>
-          <WorkList />
-        </div>
-        <div>
-          <h1 style={{ color: 'white' }}>Projects</h1>
-          <ProjectsList />
           <h1 style={{ color: 'white' }}>Discord</h1>
           <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>
