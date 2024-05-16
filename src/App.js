@@ -38,13 +38,12 @@ function App() {
       </div>
       <div className='embedcontainer'>
         <div>
-          <h1 style={{ color: 'white' }}>Discord</h1>
-          <div style={{ display: 'flex', 'justify-content': 'Center' }}>
+          <h1 style={{ color: 'white' }}>Discord Profile</h1>
             <DiscordProfile discordUser={discordUser}/>
-          </div>
-         <div>
+        </div>
+        <div>
           <h1 style={{ color: 'white' }}>Contact Information</h1>
-          <div style={{ display: 'flex', 'justify-content': 'Center' }}>
+          <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <SocialsList />
           </div>
         </div>
